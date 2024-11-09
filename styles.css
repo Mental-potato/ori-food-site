@@ -1,0 +1,52 @@
+h1 {
+    color: red;
+}
+body{
+    background-color: #b9d2b1;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically (optional) */
+    min-height: 100vh; /* Ensures the body takes up the full height of the viewport */
+    margin: 50px; /* Removes default margin */
+    padding-top: 80px; /* Adjust based on the height of the header */
+
+}
+
+.centered-column {
+    width: 60%; /* Adjust width as needed */
+    max-width: 800px; /* Optional: limits the width for larger screens */
+    background-color: #e3f1df; /* Optional: adds a background color */
+    padding: 20px; /* Adds padding inside the column */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow */
+    border-radius: 8px; /* Optional: rounds the corners */
+}
+header {
+    position: absolute;
+    align-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+

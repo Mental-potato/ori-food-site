@@ -1,0 +1,55 @@
+<html lang="en-US">	
+	<head>
+		<title>Ori's Kitchen Contact</title>
+
+		<link rel="stylesheet" href="styles.css" />	
+	</head>
+
+
+	<body>
+		<div id="header"></div>
+
+		<script>
+			// Load the header into the page
+			document.addEventListener('DOMContentLoaded', function() {
+				fetch('header.html')
+					.then(response => response.text())
+					.then(data => {
+						document.getElementById('header').innerHTML = data;
+					});
+			});
+		</script>
+		<div class="centered-column">
+			<h1 style="font-family:fantasy; text-align: center;">About Us</h1>
+
+			<h2>add intro text about our story...</h2>
+            
+            <hr>
+
+			<h3>So who am I?</h3>
+			<p>hello, my name is Ori and i'm 23 years old, I have been a profesional chef for absolutely 0 years, <br>
+			Over the years I have prefected the craft of what is called "broke meals" or better known as
+			<a href="https://www.urbandictionary.com/define.php?term=Struggle%20Meal">"struggle meal"</a>, the purpse of this website is to bring you recepices and technics on how to save money while still eating healthy and tasty.
+			</p>
+			<div class="container">
+				<img 
+
+    			src="HOMEMADE-PASTA-RECIPE-v.png"
+    			class="responsive-image"
+    			alt="A picture of homemade pasta" />
+			</div>
+
+			<p></p>
+			<hr>
+			<p></p>
+
+		</div>
+		
+	</body>
+	<footer>
+		<small>
+		  Copyright © 2024 Ori's Kitchen. All Rights Reserved.
+		</small>
+	  </footer>
+	  
+</html>

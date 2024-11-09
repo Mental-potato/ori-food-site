@@ -1,0 +1,64 @@
+<html lang="en-US">	
+	<head>
+		<title>Ori's Kitchen Contact</title>
+
+		<link rel="stylesheet" href="styles.css" />	
+	</head>
+
+
+	<body>
+		<div id="header"></div>
+
+		<script>
+			// Load the header into the page
+			document.addEventListener('DOMContentLoaded', function() {
+				fetch('header.html')
+					.then(response => response.text())
+					.then(data => {
+						document.getElementById('header').innerHTML = data;
+					});
+			});
+		</script>
+		<div class="centered-column">
+			<h1 style="font-family:fantasy; text-align: center;">Contact Us</h1>
+
+			<h4>please leave your details bellow and we will contact you soon as possible</h4>
+            
+            <form action="/action_page.php">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value=""><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value=""><br>
+                <label for="pname">Phone number:</label><br>
+                <input type="text" id="pname" name="pname" value=""><br>
+                <label for="contents">What can we help you with?:</label><br>
+                <input type="text" id="contents" name="contents" value="" maxlength="200"><br>
+                <br>
+                <input type="submit" value="Submit">
+              </form>
+
+            <hr>
+
+			<h3>You can also find us here:</h3>
+			<p>add IG FB Email here
+			</p>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   
+            <a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"></a>
+            <a href="https://x.com" class="fa fa-twitter" target="_blank"></a>
+
+			<p></p>
+			<hr>
+			<p></p>
+
+		</div>
+		
+	</body>
+	<footer>
+		<small>
+		  Copyright © 2024 Ori's Kitchen. All Rights Reserved.
+		</small>
+	  </footer>
+	  
+</html>
