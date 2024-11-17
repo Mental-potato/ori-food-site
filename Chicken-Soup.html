@@ -1,0 +1,33 @@
+<html lang="en-US">	
+	<head>
+		<title>Ori's Kitchen - Chicken Soup</title>
+
+		<link rel="stylesheet" href="styles.css" />	
+	</head>
+
+
+	<body>
+		<div id="header"></div>
+
+		<script>
+			// Load the header into the page
+			document.addEventListener('DOMContentLoaded', function() {
+				fetch('header.html')
+					.then(response => response.text())
+					.then(data => {
+						document.getElementById('header').innerHTML = data;
+					});
+			});
+		</script>
+		<div class="centered-column">
+			<h1 class="main-h1">Lazy Chicken Soup</h1>
+
+			<h2>Very cheap and nutritinal chicken soup recipe:</h2>
+
+
+		</div>
+		<footer class="footer">
+			<p class="footer-message">© 2024 Ori's Kitchen. All rights reserved.</p>
+		  </footer>
+	</body>
+</html>

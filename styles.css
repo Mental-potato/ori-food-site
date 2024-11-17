@@ -16,7 +16,7 @@ body{
      text-align: center;
 }
 .centered-column {
-    width: 60%; /* Adjust width as needed */
+    width: 90%; /* Adjust width as needed */
     max-width: 800px; /* Optional: limits the width for larger screens */
     background-color: #e3f1df; /* Optional: adds a background color */
     padding: 20px; /* Adds padding inside the column */
@@ -64,7 +64,7 @@ img{
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -75,5 +75,5 @@ img{
   /* Styling for the footer text */
   .footer-message {
     margin: 0; /* Removes default margin */
-    font-size: 14px; /* Adjusts text size */
+    font-size: 0.5rem; /* Adjusts text size */
   }
