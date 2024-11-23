@@ -8,6 +8,9 @@ body{
     align-items: center; /* Centers vertically (optional) */
     min-height: 100vh; /* Ensures the body takes up the full height of the viewport */
     margin: 50px; /* Removes default margin */
+    font-family: Arial, sans-serif; /* Replace with your preferred font */
+    font-size: 1rem; /* Base size */
+    line-height: 1.5; /* Improve readability */
     padding-top: 80px; /* Adjust based on the height of the header */
 
 }
@@ -77,3 +80,41 @@ img{
     margin: 0; /* Removes default margin */
     font-size: 0.5rem; /* Adjusts text size */
   }
+  .Menu-Header {
+font-family:'Times New Roman', Times, serif;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a:focus {
+    outline: 2px dashed blue;
+    outline-offset: 4px;
+}
+
+a:active {
+    color: green;
+}
+/* Links specifically in the header */
+header a {
+    color: white; /* White links in the header */
+    font-weight: bold; /* Bold font for header links */
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+header a:hover {
+    color: red;
+    text-decoration: underline;
+}
